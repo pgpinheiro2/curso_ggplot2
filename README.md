@@ -1,5 +1,6 @@
-# Minicursos R: ggplot2
-Notas para minicurso sobre o pacote ggplot2 do R a ser ministrado para servidores públicos na Universidade Federal do Amapá. No entanto, nada impede, claro!, que outros públicos utilizem este material.
+# Minicurso R: ggplot2
+
+Notas do minicurso sobre o pacote `ggplot2` do `R` a ser ministrado para servidores públicos na Universidade Federal do Amapá. No entanto, nada impede, claro!, que outros públicos utilizem este material.
 
 ## Instalação do pacote `ggplot2`
 ```{r setup, echo=T}
@@ -13,7 +14,12 @@ require(ggplot2)
 ```
 
 ## Base de dados `escolhida`
-O R já vem instalado com diversas base de dados. Vamos escolher ... para aplicar nossos exemplos.
+O R já vem instalado com diversas base de dados. Vamos escolher uma delas para aplicar nossos exemplos.
+
+Com o comando `data()` podemos ver a relação de *datasets* no `R`.
+```{r }
+data()
+```
 
 ## Exemplo 1: 
 $f(x|\theta) = \frac{1}{\theta_2 - \theta_1} I_{(\theta_1,\theta_2)}(x)$
