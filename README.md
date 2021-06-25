@@ -2,7 +2,11 @@
 
 Notas do minicurso sobre o pacote `ggplot2` do `R` a ser ministrado para servidores públicos na Universidade Federal do Amapá. No entanto, nada impede, claro!, que outros públicos utilizem este material.
 
-## Instalação do pacote `ggplot2`
+## Introdução
+
+### Apresentação: [video](link)
+
+### Instalação do pacote `ggplot2`
 ```{r setup, echo=T}
 install.packages('ggplot2')
 library(ggplot2)
@@ -34,6 +38,7 @@ $f(x|\theta) = \frac{1}{\theta_2 - \theta_1} I_{(\theta_1,\theta_2)}(x)$
 Este curso está sendo elaborado com duas referências básicas. Usamos o livro *R for Data Science* dos autores *Wickham* e *Grolemund*. O outro material que usamos é da série *cheat sheet* do *RStudio*. Para nossa sorte, ambos estão acessíveis nos *links* a seguir.
 
 ![R for Data Science](https://d33wubrfki0l68.cloudfront.net/b88ef926a004b0fce72b2526b0b5c4413666a4cb/24a30/cover.png)
+
 ![Clique aqui para acessar ao livro!](https://r4ds.had.co.nz/)
 
 
