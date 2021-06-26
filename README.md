@@ -47,3 +47,55 @@ Este curso está sendo elaborado com duas referências básicas. Usamos o livro 
 
 ### Anexos
 - Instalação do `R` no windows: [![Passo-a-passo em inglês para instalação do R no Windows](http://img.youtube.com/vi/ZoPJGmpYJzw/0.jpg)](http://www.youtube.com/watch?v=ZoPJGmpYJzw "Como instalar o R no Windows")
+
+#### Matemática básica no `R`
+```{r }
+# Soma:
+1+2
+# Subtração
+5-2
+# Multiplicação
+3*4
+# Potenciação
+2^4
+2**4
+2^2^2^2
+16^2^2
+# Divisão
+10/2
+# Quociente da divisão; parte inteira
+7%/%2
+# Resto da divisão
+7%%2
+# Módulo
+abs(-5)
+abs(10)
+# Logarítmo
+log(10)
+log(10,10)
+log(1)
+log(1,exp(1))
+# Exponencial
+exp(0)
+exp(1)
+# Pi
+pi
+# Funções Trigonométricas
+sin(pi/2)
+cos(pi)
+tan(1/2)
+tan(45*pi/180)
+tan(pi/4)
+# Fatorial
+factorial(4)
+4*3*2*1
+# Combinações
+choose(5,2)
+5*4/factorial(2)
+# Somatórios
+x = 1:10
+sum(x)
+# Produtórios
+prod(x)
+```
+
