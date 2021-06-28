@@ -51,51 +51,85 @@ Este curso está sendo elaborado com duas referências básicas. Usamos o livro 
 #### Matemática básica no `R`
 ```{r }
 # Soma:
-1+2
-# Subtração
+1+3
+10+2
+
+# Subtração:
 5-2
-# Multiplicação
-3*4
+10-2
+2-10
+
+# Multiplicação;
+2*3
+7*4
+
 # Potenciação
-2^4
-2**4
-2^2^2^2
-16^2^2
-# Divisão
-10/2
-# Quociente da divisão; parte inteira
-7%/%2
-# Resto da divisão
-7%%2
-# Módulo
-abs(-5)
-abs(10)
-# Logarítmo
-log(10)
-log(10,10)
-log(1)
-log(1,exp(1))
-# Exponencial
-exp(0)
+2^3
+4^4
+2**3
+4**4
+
+# Divisão;
+8/2
+10/3
+
+# Quociente da divisão; parte inteira: %/%
+10%/%3
+
+# Resto da divisão: %%
+10%%3
+
+# Módulo:
+abs(-3)
+abs(8)
+abs(-10)
+
+# Logarítmo:
+log(2)
+log(2,10)
+log10(2)
+?log
+help(log)
+log(2,exp(1))
+log
+
+# Exponencial:
 exp(1)
+exp(3)
+exp(0)
+
 # Pi
 pi
-# Funções Trigonométricas
+
+# Funções Trigonométricas:
+?sin
 sin(pi/2)
+sinpi(1/2)
+cos(pi/2)
 cos(pi)
-tan(1/2)
-tan(45*pi/180)
+cos(0)
 tan(pi/4)
-# Fatorial
+sin(pi/4)/cos(pi/4)
+
+# Fatorial:
 factorial(4)
 4*3*2*1
-# Combinações
-choose(5,2)
-5*4/factorial(2)
-# Somatórios
-x = 1:10
+
+# Combinações:
+choose(10,2)
+10*9/factorial(2)
+factorial(10)/(factorial(10-2)*factorial(2))
+
+# Somatórios:
+x = 3:13
+x
 sum(x)
-# Produtórios
+cumsum(x)
+max(cumsum(x))
+x |> cumsum() |> max()
+
+# Produtórios:
+x |> prod()
 prod(x)
 ```
 
